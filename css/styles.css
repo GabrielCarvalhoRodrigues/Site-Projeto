@@ -1,0 +1,165 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Estilo para título */
+h1, h2, h3 {
+    color: #333; /* Cor escura para títulos */
+}
+
+/* Parágrafos */
+p {
+    color: #70747a; /* Cor cinza para textos */
+    line-height: 1.6; /* Aumenta a legibilidade */
+}
+.container- {
+    width: 100%;
+    height: 20px;
+    background-color: #468faf; /* Cor azul para a navbar principal */
+    padding: 0 2rem;
+    border-bottom: #070606;
+}
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    height: 90px;
+    background-color: #fff; /* Cor azul para a navbar principal */
+    padding: 0 2rem;
+    border-bottom: 1px solid #b9b9b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Navegação */
+nav {
+    position: relative;
+}
+
+.logo {
+    margin-top: 3px;
+    width: 105px;
+    padding: 0;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-10%);
+}
+
+.navbar-itens {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza o conteúdo */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 90px;
+}
+.navbar-itens li {
+    display: inline-block;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.navbar-itens a {
+    color: #000000; /* Cor branca para links */
+    text-decoration: none;
+    transition: 0.3s; /* Transição suave */
+}
+
+.navbar-itens a:hover {
+    color: #468faf;
+    transform: translateY(-5px);
+    font-size: 15px;
+}
+
+.select-nav {
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.select-nav:hover .select-dropdown {
+    display: block; /* Exibe o dropdown no hover */
+}
+
+/* Botão padrão */
+.Default-btn:hover {
+    background-color: #f1f1f1; /* Cor clara no hover */
+}
+ 
+/* Banner principal */
+.main-banner {
+    padding: 6rem 0;
+    text-align: center; 
+    
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #468faf;
+    font-weight: bold;
+    }
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 25px;
+}
+
+/* Seção de Serviços */
+.services-container {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+.services-container ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.services-container li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.services-container li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* Efeito de sombra no hover */
+}
+
+.services-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fas {
+    font-size: 60px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.fa-shield-alt {
+    color: #2cc76a; /* Cor verde para ícone de segurança */
+ }
+ .services-container p {
+    font-size: 16px;
+    color: #555;
+}
